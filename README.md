@@ -2,7 +2,7 @@
 for testing
 import requests
 
-API_KEY = "your_api_key"  # از سایت OpenWeather بگیر
+API_KEY = "your_api_key"  # OpenWeather 
 city = "London"
 url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
 
