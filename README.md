@@ -1,5 +1,5 @@
 # my-second-repo
-for testing
+for testings
 import request
 
 API_KEY = "your_api_key"  # OpenWeather 
