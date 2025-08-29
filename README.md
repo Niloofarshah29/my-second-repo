@@ -1,6 +1,6 @@
 # my-second-repo
 for testing
-import requests
+import request
 
 API_KEY = "your_api_key"  # OpenWeather 
 city = "London"
