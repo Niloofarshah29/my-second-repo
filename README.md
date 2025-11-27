@@ -10,4 +10,4 @@ response = requests.get(url).json()
 
 print(f"City: {response['name']}")
 print(f"Temperature: {response['main']['temp']}°C")
-prin(f"Weather: {response['weather'][0]['description']}")
+print(f"Weather: {response['weather'][0]['description']}")
