@@ -3,7 +3,7 @@ for testings
 import request
 
 API_KEY = "your_api_key"  # OpenWeather 
-cit = "London"
+city = "London"
 url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
 
 response = requests.get(url).json()
